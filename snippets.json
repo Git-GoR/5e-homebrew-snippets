@@ -1,0 +1,223 @@
+{
+	"_meta": {
+		"prefix": "meta",
+		"body": [
+			"\"_meta\": {",
+			"        \"sources\": [",
+			"            {",
+			"                \"json\": \"$1\",",
+			"                \"abbreviation\": \"$2\",",
+			"                \"full\": \"$3\",",
+			"                \"authors\": [",
+			"                    \"$4\"",
+			"                ],",
+			"                \"convertedBy\": [",
+			"                    \"$5\"",
+			"                ],",
+			"                \"version\": \"$6\",",
+			"                \"color\": \"$7\",",
+			"                \"url\": \"$8\",",
+			"                \"targetSchema\": \"1.2\"",
+			"            }",
+			"        ],",
+			"        \"dateAdded\": $CURRENT_SECONDS_UNIX,",
+			"        \"dateLastModified\": $CURRENT_SECONDS_UNIX",
+			"    }"
+		],
+		"description": "Full basic _meta"
+	},
+	"unixDate": {
+		"prefix": "unixDate",
+		"body": [
+			"$CURRENT_SECONDS_UNIX"
+		],
+		"description": "The number of seconds since the Unix epoch"
+	},
+	"section": {
+		"prefix": "section",
+		"body": [
+			"{",
+			"        \"type\": \"section\",",
+			"        \"name\": \"$1\",",
+			"        \"page\": ${2:0},",
+			"        \"entries\": [",
+			"            \"$3\"",
+			"        ]",
+			"    }"
+		],
+		"description": "Section entry"
+	},
+	"entries": {
+		"prefix": "entries",
+		"body": [
+			"{",
+			"        \"type\": \"entries\",",
+			"        \"name\": \"$1\",",
+			"        \"page\": ${2:0},",
+			"        \"entries\": [",
+			"            \"$3\"",
+			"        ]",
+			"    }"
+		],
+		"description": "Entries block"
+	},
+	"quote": {
+		"prefix": "quote",
+		"body": [
+			"{",
+			"    \"type\": \"quote\",",
+			"    \"entries\": [",
+			"        \"$1\"",
+			"    ],",
+			"    \"by\": \"$2\",",
+			"    \"from\": \"$3\"",
+			"}"
+		],
+		"description": "Quote block"
+	},
+	"inset": {
+		"prefix": "inset",
+		"body": [
+			"{",
+			"    \"type\": \"inset\",",
+			"    \"name\": \"$1\",",
+			"    \"entries\": [",
+			"        \"$2\"",
+			"    ]",
+			"}"
+		],
+		"description": "Inset block"
+	},
+	"insetReadaloud": {
+		"prefix": "insetReadaloud",
+		"body": [
+			"{",
+			"    \"type\": \"insetReadaloud\",",
+			"    \"name\": \"$1\",",
+			"    \"entries\": [",
+			"        \"$2\"",
+			"    ]",
+			"}"
+		],
+		"description": "Inset block, but on blue color."
+	},
+	"list": {
+		"prefix": "list",
+		"body": [
+			"{",
+			"    \"type\": \"list\",",
+			"    \"style\": \"${1|list-hang,list-hang-notitle,list-no-bullets,list-decimal,list-lower-roman|}\",",
+			"    \"columns\": ${2:0},",
+			"    \"name\": \"$3\",",
+			"    \"items\": [",
+			"        \"$4\"",
+			"    ]",
+			"}"
+		],
+		"description": "List with style options. Remove the style line for default one."
+	},
+	"item": {
+		"prefix": "item",
+		"body": [
+			"{",
+			"    \"type\": \"item\",",
+			"    \"name\": \"$1\",",
+			"    \"entries\": [",
+			"        \"$2\"",
+			"    ]",
+			"}"
+		],
+		"description": "List item."
+	},
+	"tableEntry": {
+		"prefix": "tableEntry",
+		"body": [
+			"{",
+			"    \"type\": \"table\",",
+			"    \"caption\": \"${1:Optional Caption}\",",
+			"    \"colLabels\": [",
+			"        \"$2\",",
+			"        \"$3\"",
+			"    ],",
+			"    \"colStyles\": [",
+			"        \"col-$4 text-$5\",",
+			"        \"col-$6 text- \"",
+			"    ],",
+			"    \"intro\": [",
+			"        \"${7:Optional intro entries.}\"",
+			"    ],",
+			"    \"outro\": [",
+			"        \"${8:Optional outro entries.}\"",
+			"    ],",
+			"    \"rows\": [",
+			"        [",
+			"            \"$9\",",
+			"            \"$10\"",
+			"        ],",
+			"        [",
+			"            \"$11\",",
+			"            \"$12\"",
+			"        ]",
+			"    ],",
+			"    \"footnotes\": [",
+			"        \"${13:Optional Footer}\"",
+			"    ]",
+			"}"
+		],
+		"description": "Table block for text entries."
+	},
+	"abilityDC": {
+		"prefix": "abilityDC",
+		"body": [
+			"{",
+			"    \"type\": \"abilityDc\",",
+			"    \"name\": \"$1\",",
+			"    \"attributes\": [",
+			"        \"${2:First 3 letters of attribute}\"",
+			"    ]",
+			"}"
+		],
+		"description": "Centered text with the format 'Name save DC = 8 + prof + mod'"
+	},
+	"abilityAttackMod": {
+		"prefix": "abilityAttackMod",
+		"body": [
+			"{",
+			"    \"type\": \"abilityAttackMod\",",
+			"    \"name\": \"$1\",",
+			"    \"attributes\": [",
+			"        \"${2:First 3 letters of attribute}\"",
+			"    ]",
+			"}"
+		],
+		"description": "Centered text with the format 'Name attack modifier = prof + mod'"
+	},
+	"abilityGeneric": {
+		"prefix": "abilityGeneric",
+		"body": [
+		  "{",
+		  "    \"type\": \"abilityGeneric\",",
+		  "    \"name\": \"$1\",",
+		  "    \"text\": \"$2\",",
+		  "    \"attributes\": [",
+		  "        \"${3:First 3 letters of attribute}\"",
+		  "    ]",
+		  "}"
+		],
+		"description": "Centered text with the format 'Name  = text mod'"
+	  },
+	  "image": {
+		"prefix": "image",
+		"body": [
+		  "{",
+		  "    \"type\": \"image\",",
+		  "    \"href\": {",
+		  "        \"type\": \"external\",",
+		  "        \"url\": \"$1\"",
+		  "    },",
+		  "    \"title\": \"${2:Optional Title}\"",
+		  "}"
+		],
+		"description": "External image link."
+	  }
+}

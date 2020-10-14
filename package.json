@@ -1,0 +1,27 @@
+{
+	"name": "5et-homebrew-snippets",
+	"displayName": "5eT Homebrew Snippets",
+	"description": "Collection of JSON snippets to make homebrewers' tasks a bit more bearable.",
+	"version": "0.0.1",
+	"publisher": "GoR",
+	"icon": "images/icon2.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Git-GoR/5eT-homebrew-snippets.git"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "json",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}
