@@ -2,7 +2,7 @@
 
 A handy extension to make Homebrewers' lifes easier.  
 
-![Example video](https://raw.githubusercontent.com/Git-GoR/5eT-homebrew-snippets/master/example.webp)
+![Example video](https://raw.githubusercontent.com/Git-GoR/5eT-homebrew-snippets/main/images/example.webp)
 
 ## Installation
 
