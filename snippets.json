@@ -37,13 +37,13 @@
 		"prefix": "section",
 		"body": [
 			"{",
-			"\t\t\"type\": \"section\",",
-			"\t\t\"name\": \"$1\",",
-			"\t\t\"page\": ${2:0},",
-			"\t\t\"entries\": [",
-			"\t\t\t\"$3\"",
-			"\t\t]",
-			"\t}"
+			"\t\"type\": \"section\",",
+			"\t\"name\": \"$1\",",
+			"\t\"page\": ${2:0},",
+			"\t\"entries\": [",
+			"\t\t\"$3\"",
+			"\t]",
+			"}"
 		],
 		"description": "Section entry"
 	},
@@ -51,13 +51,13 @@
 		"prefix": "entries",
 		"body": [
 			"{",
-			"\t\t\"type\": \"entries\",",
-			"\t\t\"name\": \"$1\",",
-			"\t\t\"page\": ${2:0},",
-			"\t\t\"entries\": [",
-			"\t\t\t\"$3\"",
-			"\t\t]",
-			"\t}"
+			"\t\"type\": \"entries\",",
+			"\t\"name\": \"$1\",",
+			"\t\"page\": ${2:0},",
+			"\t\"entries\": [",
+			"\t\t\"$3\"",
+			"\t]",
+			"}"
 		],
 		"description": "Entries block"
 	},
