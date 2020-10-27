@@ -41,3 +41,19 @@ Different snippets for text entries, all found in the Renderer Demo.
 | `abilityAttackMod` | Centered text with the format "Name attack modifier = prof + mod" |
 | `abilityGeneric` | Centered text with the format "Name  = text mod" |
 | `image` | External image link |
+
+---
+
+### Class and Subclass
+
+Be aware that these snippets are long and wordy with many optional parts, make sure you delete those that do not apply to the homebrew you are converting to prevent errors.
+
+| Prefix        | Purpose        |
+|---------------|----------------|
+| `class` | Full class skeleton |
+| `classFeature` | Skeleton of class feature |
+| `classFeatureRef` | Reference a class feature inside a class |
+| `subclass` | Full subclass skeleton |
+| `subclassFeature` | Skeleton of subclass feature |
+| `subclassFeatureRef` | Reference a subclass feature inside a subclass feature list, do not mistake with `refSubclassFeature` |
+| `refSubclassFeature` | Reference a subclass feature in the entries of a different subclass feature, used to create nested subclass features |
