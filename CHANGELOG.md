@@ -1,5 +1,9 @@
 ## Release Notes
 
+### 0.1.1
+
+Fixed typo in `subclassFeatureRef` and `refSubclassFeature`
+
 ### 0.1.0
 
 [NEW] Added Class and Subclass related snippets. These are very wordy and complete, so make sure you know the structure.
