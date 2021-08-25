@@ -104,7 +104,7 @@
             "\t\"source\": \"$2\",",
             "\t\"className\": \"$3\",",
             "\t\"classSource\": \"$4\",",
-            "\t\"shortname\": \"$5\",",
+            "\t\"shortName\": \"$5\",",
             "\t\"subclassFeatures\": [",
             "\t\t$0",
             "\t],",
