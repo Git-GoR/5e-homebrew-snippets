@@ -20,7 +20,15 @@
 		"snippets": [
 			{
 				"language": "json",
-				"path": "./snippets.json"
+				"path": "./snippets/class.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/entries.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/meta.json"
 			}
 		]
 	}

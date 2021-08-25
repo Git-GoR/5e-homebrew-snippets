@@ -1,0 +1,189 @@
+{
+    "section": {
+        "prefix": "section",
+        "body": [
+            "{",
+            "\t\"type\": \"section\",",
+            "\t\"name\": \"$1\",",
+            "\t\"page\": ${2:0},",
+            "\t\"entries\": [",
+            "\t\t\"$3\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Section entry, creates a level -1 header"
+    },
+    "entries": {
+        "prefix": "entries",
+        "body": [
+            "{",
+            "\t\"type\": \"entries\",",
+            "\t\"name\": \"$1\",",
+            "\t\"page\": ${2:0},",
+            "\t\"entries\": [",
+            "\t\t\"$3\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Entries block, for basic text"
+    },
+    "quote": {
+        "prefix": "quote",
+        "body": [
+            "{",
+            "\t\"type\": \"quote\",",
+            "\t\"entries\": [",
+            "\t\t\"$1\"",
+            "\t],",
+            "\t\"by\": \"$2\",",
+            "\t\"from\": \"$3\"",
+            "}"
+        ],
+        "description": "Quote block"
+    },
+    "inset": {
+        "prefix": "inset",
+        "body": [
+            "{",
+            "\t\"type\": \"inset\",",
+            "\t\"name\": \"$1\",",
+            "\t\"entries\": [",
+            "\t\t\"$2\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Inset block"
+    },
+    "insetReadaloud": {
+        "prefix": "insetReadaloud",
+        "body": [
+            "{",
+            "\t\"type\": \"insetReadaloud\",",
+            "\t\"name\": \"$1\",",
+            "\t\"entries\": [",
+            "\t\t\"$2\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Inset block, but on blue color"
+    },
+    "list": {
+        "prefix": "list",
+        "body": [
+            "{",
+            "\t\"type\": \"list\",",
+            "\t\"style\": \"${1|list-hang,list-hang-notitle,list-no-bullets,list-decimal,list-lower-roman|}\",",
+            "\t\"columns\": ${2:0},",
+            "\t\"name\": \"$3\",",
+            "\t\"items\": [",
+            "\t\t\"$4\"",
+            "\t]",
+            "}"
+        ],
+        "description": "List with style options. Remove the style line for default one with bullet points"
+    },
+    "listItem": {
+        "prefix": "listItem",
+        "body": [
+            "{",
+            "\t\"type\": \"item\",",
+            "\t\"name\": \"$1\",",
+            "\t\"entries\": [",
+            "\t\t\"$2\"",
+            "\t]",
+            "}"
+        ],
+        "description": "An item within a list"
+    },
+    "tableEntry": {
+        "prefix": "tableEntry",
+        "body": [
+            "{",
+            "\t\"type\": \"table\",",
+            "\t\"caption\": \"${1:Optional Caption}\",",
+            "\t\"colLabels\": [",
+            "\t\t\"$2\",",
+            "\t\t\"$3\"",
+            "\t],",
+            "\t\"colStyles\": [",
+            "\t\t\"col-$4 text-$5\",",
+            "\t\t\"col-$6 text- \"",
+            "\t],",
+            "\t\"intro\": [",
+            "\t\t\"${7:Optional intro entries.}\"",
+            "\t],",
+            "\t\"outro\": [",
+            "\t\t\"${8:Optional outro entries.}\"",
+            "\t],",
+            "\t\"rows\": [",
+            "\t\t[",
+            "\t\t\t\"$9\",",
+            "\t\t\t\"$10\"",
+            "\t\t],",
+            "\t\t[",
+            "\t\t\t\"$11\",",
+            "\t\t\t\"$12\"",
+            "\t\t]",
+            "\t],",
+            "\t\"footnotes\": [",
+            "\t\t\"${13:Optional Footer}\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Table block used within text entries"
+    },
+    "abilityDC": {
+        "prefix": "abilityDC",
+        "body": [
+            "{",
+            "\t\"type\": \"abilityDc\",",
+            "\t\"name\": \"$1\",",
+            "\t\"attributes\": [",
+            "\t\t\"${2:First 3 letters of attribute}\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Centered text with the format 'Name save DC = 8 + prof + mod'"
+    },
+    "abilityAttackMod": {
+        "prefix": "abilityAttackMod",
+        "body": [
+            "{",
+            "\t\"type\": \"abilityAttackMod\",",
+            "\t\"name\": \"$1\",",
+            "\t\"attributes\": [",
+            "\t\t\"${2:First 3 letters of attribute}\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Centered text with the format 'Name attack modifier = prof + mod'"
+    },
+    "abilityGeneric": {
+        "prefix": "abilityGeneric",
+        "body": [
+            "{",
+            "\t\"type\": \"abilityGeneric\",",
+            "\t\"name\": \"$1\",",
+            "\t\"text\": \"$2\",",
+            "\t\"attributes\": [",
+            "\t\t\"${3:First 3 letters of attribute}\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Centered text with the format 'Name  = text mod'"
+    },
+    "image": {
+        "prefix": "image",
+        "body": [
+            "{",
+            "\t\"type\": \"image\",",
+            "\t\"href\": {",
+            "\t\t\"type\": \"external\",",
+            "\t\t\"url\": \"$1\"",
+            "\t},",
+            "\t\"title\": \"${2:Optional Title}\"",
+            "}"
+        ],
+        "description": "External image link"
+    }
+}
