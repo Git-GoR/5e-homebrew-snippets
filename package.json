@@ -4,7 +4,7 @@
 	"description": "Collection of JSON snippets to make homebrewers' tasks a bit more bearable.",
 	"version": "0.1.1",
 	"publisher": "GoR",
-	"icon": "images/icon2.png",
+	"icon": "images/icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Git-GoR/5eT-homebrew-snippets.git"
