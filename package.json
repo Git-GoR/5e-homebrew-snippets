@@ -9,6 +9,9 @@
 		"type": "git",
 		"url": "https://github.com/Git-GoR/5eT-homebrew-snippets.git"
 	},
+	"bugs": {
+		"url": "https://github.com/Git-GoR/5e-homebrew-snippets/issues"
+	},
 	"license": "SEE LICENSE IN LICENSE.md",
 	"engines": {
 		"vscode": "^1.28.0"
