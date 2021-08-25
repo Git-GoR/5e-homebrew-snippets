@@ -3,7 +3,8 @@ This project tries to adhere to [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
 ### Added
-- Add page number to class and subclass features. 
+- Add page number to class and subclass features.
+- Add `header` key to `subclassFeature`
 
 ## [0.2.0] - 2021-08-25
 ### Changed
