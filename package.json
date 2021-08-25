@@ -1,7 +1,7 @@
 {
 	"name": "5et-homebrew-snippets",
 	"displayName": "5eT Homebrew Snippets",
-	"description": "Collection of JSON snippets to make homebrewers' tasks a bit more bearable.",
+	"description": "Collection of JSON snippets to make homebrewers' life a bit more bearable.",
 	"version": "0.1.1",
 	"publisher": "GoR",
 	"icon": "images/icon.png",
