@@ -130,8 +130,9 @@
             "\t\"subclassShortName\": \"$6\",",
             "\t\"subclassSource\": \"$7\",",
             "\t\"level\": ${8:0},",
+            "\t\"header\": ${9:2},",
             "\t\"entries\": [",
-            "\t\t\"$9\"",
+            "\t\t\"$10\"",
             "\t]",
             "}"
         ],
