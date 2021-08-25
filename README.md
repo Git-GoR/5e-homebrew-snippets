@@ -6,7 +6,9 @@ A handy extension to make Homebrewers' lifes easier.
 
 ## Installation
 
-Copy the extension into your VS Code extensions folder.  
+Install the extension directly in VSCode through its Marketplace.
+
+Alternatively, copy the extension into your VS Code extensions folder.  
  The default location is `%USERPROFILE%\.vscode\extensions`
 
 ---
