@@ -6,6 +6,9 @@ This project tries to adhere to [Semantic Versioning](https://semver.org/)
 - Add page number to class and subclass features.
 - Add `header` key to `subclassFeature`
 
+### Fixed
+- Fix typo in subclass `shortName`
+
 ## [0.2.0] - 2021-08-25
 ### Changed
 - Refactored snippets folder structure. They are now separated in different files, making fixing typos easier.
