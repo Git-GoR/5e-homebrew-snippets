@@ -194,5 +194,41 @@
           "}"
         ],
         "description": "Hazard block"
+      },
+      "language": {
+        "prefix": "language",
+        "body": [
+          "{",
+          "\t\"name\": \"$1\",",
+          "\t\"source\": \"$2\",",
+          "\t\"page\": ${3:0},",
+          "\t\"type\": \"$4\",",
+          "\t\"script\": \"$5\",",
+          "\t\"typicalSpeakers\": [",
+          "\t\t\"$6\"",
+          "\t],",
+          "\t\"dialects\": [",
+          "\t\t\"$7\"",
+          "\t],",
+          "\t\"fonts\": [",
+          "\t\t\"$8\"",
+          "\t],",
+          "\t\"fluff\": {",
+          "\t\t\"images\": [",
+          "\t\t\t{",
+          "\t\t\t\t\"type\": \"image\",",
+          "\t\t\t\t\"href\": {",
+          "\t\t\t\t\t\"type\": \"external\",",
+          "\t\t\t\t\t\"url\": \"$9\"",
+          "\t\t\t\t}",
+          "\t\t\t}",
+          "\t\t]",
+          "\t},",
+          "\t\"entries\": [",
+          "\t    \"$0\"",
+          "\t]",
+          "}"
+        ],
+        "description": "Language block"
       }
 }
