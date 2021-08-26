@@ -59,3 +59,25 @@ Be aware that these snippets are long and wordy with many optional parts, make s
 | `subclassFeature` | Skeleton of subclass feature |
 | `subclassFeatureRef` | Reference a subclass feature inside a subclass feature list, do not mistake with `refSubclassFeature` |
 | `refSubclassFeature` | Reference a subclass feature in the entries of a different subclass feature, used to create nested subclass features |
+
+---
+
+### General Categories
+
+Snippets for 
+
+| Prefix        | Purpose        |
+|---------------|----------------|
+| `action` | Full action skeleton |
+| `background` | Full background skeleton |
+| `boon` | Full boon skeleton |
+| `condition` | Full condition skeleton |
+| `cult` | Full cult skeleton |
+| `deity` | Full deity skeleton. Most data is optional. |
+| `disease` | Full disease skeleton |
+| `feat` | Full feat skeleton. Check the prerequisites structure. |
+| `hazard` | Full hazard skeleton |
+| `language` | Full language skeleton. Most data is optional. |
+| `optionalFeature` | Full optional feature skeleton. Check prerequisites structure. |
+| `race` | Full race skeleton |
+| `variantRule` | Full variant rule skeleton |
