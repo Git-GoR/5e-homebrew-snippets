@@ -83,5 +83,29 @@
           "}"
         ],
         "description": "Condition object"
+      },
+      "cult": {
+        "prefix": "cult",
+        "body": [
+          "{",
+          "\t\"name\": \"$1\",",
+          "\t\"source\": \"$2\",",
+          "\t\"page\": ${3:0},",
+          "\t\"type\": \"$5\",",
+          "\t\"goal\": {",
+          "\t\t\"entry\": \"$6\"",
+          "\t},",
+          "\t\"cultists\": {",
+          "\t\t\"entry\": \"$7\"",
+          "\t},",
+          "\t\"signaturespells\": {",
+          "\t\t\"entry\": \"$8\"",
+          "\t},",
+          "\t\"entries\": [",
+          "\t\t\"$0\"",
+          "\t]",
+          "}"
+        ],
+        "description": "Cult object"
       }
 }
