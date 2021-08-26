@@ -65,6 +65,21 @@
             "\t]",
             "}"
         ],
-        "description": "boon"
-    }
+        "description": "Boon object"
+    },
+    "condition": {
+        "prefix": "condition",
+        "body": [
+          "{",
+          "\t\"name\": \"\",",
+          "\t\"source\": \"\",",
+          "\t\"page\": 0,",
+          "\t\"color\": \"ffffff\",",
+          "\t\"entries\": [",
+          "\t\t\"\"",
+          "\t]",
+          "}"
+        ],
+        "description": "Condition object"
+      }
 }
