@@ -179,5 +179,20 @@
           "}"
         ],
         "description": "Feat block"
+      },
+      "hazard": {
+        "prefix": "hazard",
+        "body": [
+          "{",
+          "\t\"name\": \"$1\",",
+          "\t\"source\": \"$2\",",
+          "\t\"page\": ${3:0},",
+          "\t\"entries\": [",
+          "\t\t\"$0\"",
+          "\t],",
+          "\t\"trapHazType\": \"${4|WTH,ENV,WLD,GEN,HAZ|}\"",
+          "}"
+        ],
+        "description": "Hazard block"
       }
 }
