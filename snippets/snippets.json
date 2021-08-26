@@ -301,5 +301,20 @@
             "}"
         ],
         "description": "Race block"
+    },
+    "variantRule": {
+        "prefix": "variantRule",
+        "body": [
+            "{",
+            "\t\"name\": \"$1\",",
+            "\t\"source\": \"$2\",",
+            "\t\"page\": ${3:0},",
+            "\t\"ruleType\": \"$4\",",
+            "\t\"entries\": [",
+            "\t\t\"$0\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Variant Rule block"
     }
 }
