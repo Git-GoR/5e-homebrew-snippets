@@ -1,5 +1,5 @@
 {
-    "Action": {
+    "action": {
         "prefix": "action",
         "body": [
             "{",
@@ -18,5 +18,53 @@
             "}"
         ],
         "description": "Action object"
+    },
+    "background": {
+        "prefix": "background",
+        "body": [
+            "{",
+            "\t\"name\": \"$1\",",
+            "\t\"source\": \"$2\",",
+            "\t\"skillProficiencies\": [",
+            "\t\t{",
+            "\t\t\t\"$3\": true",
+            "\t\t}",
+            "\t],",
+            "\t\"toolProficiencies\": [",
+            "\t\t{",
+            "\t\t\t\"$4\": true",
+            "\t\t}",
+            "\t],",
+            "\t\"languageProficiencies\": [",
+            "\t\t{",
+            "\t\t\t\"$5\": true",
+            "\t\t}",
+            "\t],",
+            "\t\"entries\": [",
+            "\t\t\"$0\"",
+            "\t]",
+            "}"
+        ],
+        "description": "Background Object. Delete the unused proficiencies."
+    },
+    "boon": {
+        "prefix": "boon",
+        "body": [
+            "{",
+            "\t\"name\": \"$1\",",
+            "\t\"source\": \"$2\",",
+            "\t\"type\": \"$3\",",
+            "\t\"ability\": {",
+            "\t\t\"entry\": \"$4\"",
+            "\t},",
+            "\t\"signaturespells\": {",
+            "\t\t\"entry\": \"$5\"",
+            "\t},",
+            "\t\"entries\": [",
+            "\t\t\"$0\"",
+            "\t]",
+            "}"
+        ],
+        "description": "boon"
     }
 }
