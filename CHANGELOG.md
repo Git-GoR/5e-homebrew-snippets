@@ -2,7 +2,13 @@
 This project tries to adhere to [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
+- Nothing yet!
+
+## [0.2.1] - 2021-08-27
 ### Added
+- Added action, background, boon, condition, cult, deity, disease, feat, hazard, language, optional feature, race, variant rule snippets.
+
+### Changed
 - Add page number to class and subclass features.
 - Add `header` key to `subclassFeature`
 
