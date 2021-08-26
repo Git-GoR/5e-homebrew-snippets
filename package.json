@@ -32,6 +32,10 @@
 			{
 				"language": "json",
 				"path": "./snippets/meta.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/snippets.json"
 			}
 		]
 	}

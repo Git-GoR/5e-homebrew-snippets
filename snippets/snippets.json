@@ -1,0 +1,22 @@
+{
+    "Action": {
+        "prefix": "action",
+        "body": [
+            "{",
+            "\t\"name\": \"$1\",",
+            "\t\"source\": \"$2\",",
+            "\t\"page\": ${3:0},",
+            "\t\"entries\": [",
+            "\t\t\"$0\"",
+            "\t],",
+            "\t\"time\": [",
+            "\t\t{",
+            "\t\t\t\"number\": ${4:0},",
+            "\t\t\t\"unit\": \"${5|action,bonus,reaction|}\"",
+            "\t\t}",
+            "\t]",
+            "}"
+        ],
+        "description": "Action object"
+    }
+}
