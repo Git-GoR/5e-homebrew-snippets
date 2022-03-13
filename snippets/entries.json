@@ -27,6 +27,18 @@
         ],
         "description": "Entries block, for basic text"
     },
+    "entriesHeadless": {
+        "prefix": "entriesHeadless",
+        "body": [
+            "{",
+            "\t\"type\": \"entries\",",
+            "\t\"entries\": [",
+            "\t\t$1",
+            "\t]",
+            "}"
+        ],
+        "description": "Headless entries block, for going down one header level."
+    },
     "quote": {
         "prefix": "quote",
         "body": [
