@@ -2,7 +2,19 @@
 This project tries to adhere to [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
-- Nothing yet!
+
+
+## [0.3.0] Tag, you're it! - 2021-03-13
+
+### Added
+- Added tons of tag snippets, to be used with the recent ["Surround with snippet..." feature](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-use-surround-with-code-snippets?view=vs-2022). Note that this is not 100% of the available tags, only the ones normally used.
+- Added a headless entry snippet, to quickly go down a level.
+
+### Changed
+- Updated extension icon to be more accurrate.
+
+### Fixed
+- Added missing tab in `feat` snippet.
 
 ## [0.2.1] - 2021-08-27
 ### Added
