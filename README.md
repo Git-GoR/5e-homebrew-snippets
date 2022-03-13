@@ -1,4 +1,4 @@
-# 5eT Homebrew Snippets
+# 5et Homebrew Snippets
 
 A handy extension to make Homebrewers' lifes easier.  
 
@@ -6,10 +6,10 @@ A handy extension to make Homebrewers' lifes easier.
 
 ## Installation
 
-Install the extension directly in VSCode through its Marketplace.
+Install the extension directly in VSCode through its Marketplace. Here is it's [external link](https://marketplace.visualstudio.com/items?itemName=GoR.5et-homebrew-helper).
 
-Alternatively, copy the extension into your VS Code extensions folder.  
- The default location is `%USERPROFILE%\.vscode\extensions`
+Alternatively, copy the extension into your VS Code extensions folder.
+The default location is `%USERPROFILE%\.vscode\extensions`
 
 ---
 ## List of Snippets
@@ -81,3 +81,9 @@ Snippets for
 | `optionalFeature` | Full optional feature skeleton. Check prerequisites structure. |
 | `race` | Full race skeleton |
 | `variantRule` | Full variant rule skeleton |
+
+### Tag snippets
+
+These snippets are better used with VSC's ["Surround with snippet..."](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-use-surround-with-code-snippets?view=vs-2022) feature. Their purpose is to autocomplete `{@ }` tags, adding the different corresponding pipes `|` to each of them.
+
+The full list can be seen in the `/snippets/tags.json` file.
