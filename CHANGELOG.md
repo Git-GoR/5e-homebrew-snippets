@@ -1,8 +1,9 @@
 # Release Notes
 This project tries to adhere to [Semantic Versioning](https://semver.org/)
 
-## [Unreleased]
-
+## [0.3.1] - 2022-08-15
+### Added
+- Added `statblock` snippet which allows users to reference data in a text entry, removing the need to duplicate said data.
 
 ## [0.3.0] Tag, you're it! - 2021-03-13
 

@@ -2,7 +2,7 @@
 	"name": "5et-homebrew-helper",
 	"displayName": "5eT Homebrew Snippets",
 	"description": "Collection of JSON snippets to make homebrewers' life a bit more bearable.",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"publisher": "GoR",
 	"icon": "images/icon.png",
 	"repository": {

@@ -43,6 +43,7 @@ Different snippets for text entries, all found in the Renderer Demo.
 | `abilityAttackMod` | Centered text with the format "Name attack modifier = prof + mod" |
 | `abilityGeneric` | Centered text with the format "Name  = text mod" |
 | `image` | External image link |
+| `statblock` | Creates an embed entry of the referenced data, used to prevent duplication. (Sub)class features require extra properties. | 
 
 ---
 
