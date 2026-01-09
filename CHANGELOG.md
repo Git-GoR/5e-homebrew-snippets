@@ -1,6 +1,10 @@
 # Release Notes
 This project tries to adhere to [Semantic Versioning](https://semver.org/)
 
+## [0.3.2] I really thought I did this already - 2026-01-09
+### Changed
+- Deprecation of the extension in full effect. Please use 5etools-Language-Server instead ([Github](https://github.com/revilowaldow/5eTools-Language-Server)/[Marketplace](https://marketplace.visualstudio.com/items?itemName=revilowaldow.5etools-language-server)), by revilowaldow.
+
 ## [0.3.1] - 2022-08-15
 ### Added
 - Added `statblock` snippet which allows users to reference data in a text entry, removing the need to duplicate said data.
