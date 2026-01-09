@@ -1,5 +1,12 @@
 # 5et Homebrew Snippets
 
+> [!WARNING]  
+> This extension is **currently deprecated**. Please utilize revilowaldow's 5etools Language Server instead.
+>- Github link: https://github.com/revilowaldow/5eTools-Language-Server
+>- Marketplace: https://marketplace.visualstudio.com/items?itemName=revilowaldow.5etools-language-server
+
+---
+
 A handy extension to make Homebrewers' lifes easier.  
 
 ![Example video](https://raw.githubusercontent.com/Git-GoR/5eT-homebrew-snippets/main/images/example.webp)
